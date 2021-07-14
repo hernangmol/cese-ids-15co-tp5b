@@ -26,16 +26,16 @@
 /*=====[Definitions of public global variables]==============================*/
 
 static const struct alumno_s HERNAN_GOMEZMOLINO = {
-    .apellidos = "GOMEZ MOLINO",
-    .nombres = "Hernan",
-    .documento = "23.468.816",
+    .apellidos = "GOMEZ MOLINO",	//!< Mi apellido
+    .nombres = "Hernan",			//!< Mi nombre
+    .documento = "23.468.816",		//!< Mi DNI
 };
 
 const alumno_t ALUMNOS[] = {
     &HERNAN_GOMEZMOLINO,
 };
 
-const int CANTIDAD_ALUMNOS = (sizeof(ALUMNOS) / sizeof(alumno_t));
+const int CANTIDAD_ALUMNOS = (sizeof(ALUMNOS) / sizeof(alumno_t)); //!< Cálculo de cantidad de alumnos serializados
 
 /*=====[Definitions of private global variables]=============================*/
 
